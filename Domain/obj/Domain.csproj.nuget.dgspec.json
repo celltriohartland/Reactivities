@@ -1,31 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj": {}
+    "/Users/connor/Development/Reactivities/Domain/Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj": {
+    "/Users/connor/Development/Reactivities/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/connor/Development/Reactivities/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\obj\\",
+        "projectPath": "/Users/connor/Development/Reactivities/Domain/Domain.csproj",
+        "packagesPath": "/Users/connor/.nuget/packages/",
+        "outputPath": "/Users/connor/Development/Reactivities/Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\conno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/connor/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,42 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\conno\\Documents\\development\\Reactivities\\Application\\Application.csproj": {}
+    "/Users/connor/Development/Reactivities/Application/Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\conno\\Documents\\development\\Reactivities\\Application\\Application.csproj": {
+    "/Users/connor/Development/Reactivities/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "/Users/connor/Development/Reactivities/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Application\\obj\\",
+        "projectPath": "/Users/connor/Development/Reactivities/Application/Application.csproj",
+        "packagesPath": "/Users/connor/.nuget/packages/",
+        "outputPath": "/Users/connor/Development/Reactivities/Application/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\conno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/connor/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj"
+              "/Users/connor/Development/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/Users/connor/Development/Reactivities/Domain/Domain.csproj"
               },
-              "C:\\Users\\conno\\Documents\\development\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Persistence\\Persistence.csproj"
+              "/Users/connor/Development/Reactivities/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/connor/Development/Reactivities/Persistence/Persistence.csproj"
               }
             }
           }
@@ -50,6 +47,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,32 +68,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj": {
+    "/Users/connor/Development/Reactivities/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/connor/Development/Reactivities/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\obj\\",
+        "projectPath": "/Users/connor/Development/Reactivities/Domain/Domain.csproj",
+        "packagesPath": "/Users/connor/.nuget/packages/",
+        "outputPath": "/Users/connor/Development/Reactivities/Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\conno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/connor/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,40 +123,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\conno\\Documents\\development\\Reactivities\\Persistence\\Persistence.csproj": {
+    "/Users/connor/Development/Reactivities/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "/Users/connor/Development/Reactivities/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Persistence\\obj\\",
+        "projectPath": "/Users/connor/Development/Reactivities/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/connor/.nuget/packages/",
+        "outputPath": "/Users/connor/Development/Reactivities/Persistence/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\conno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/connor/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\conno\\Documents\\development\\Reactivities\\Domain\\Domain.csproj"
+              "/Users/connor/Development/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/Users/connor/Development/Reactivities/Domain/Domain.csproj"
               }
             }
           }
@@ -171,9 +168,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.12, )"
             }
           },
           "imports": [
@@ -191,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     }
